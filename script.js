@@ -26,6 +26,4 @@ function loadPokemons() {
             });
         });
 }
-
-// Initial load
 loadPokemons();
