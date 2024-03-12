@@ -14,7 +14,7 @@ function loadPokemons() {
                     .then(pokeData => {
                         const pokemonContainer = document.getElementById('pokemonContainer');
                         const pokemonCard = document.createElement('div');
-                        pokemonCard.classList.add('col-md-4', 'pokemon-card');
+                        pokemonCard.classList.add('col-sm-4', 'col-md-2', 'pokemon-card');
                         pokemonCard.innerHTML = `
                             <img src="${pokeData.sprites.front_default}" alt="${pokeData.name}" class="card-img-top">
                             <div class="card-body">
