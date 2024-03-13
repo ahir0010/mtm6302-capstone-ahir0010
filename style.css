@@ -32,4 +32,5 @@ body {
 .load-more button {
     width: 200px; 
     border-radius: 20px;
+    background-color: #fff;
 }

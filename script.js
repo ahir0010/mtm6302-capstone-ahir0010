@@ -14,7 +14,8 @@ function loadPokemons() {
                     .then(pokeData => {
                         const pokemonContainer = document.getElementById('pokemonContainer');
                         const pokemonCard = document.createElement('div');
-                        pokemonCard.classList.add('col-sm-4', 'col-md-2', 'pokemon-card');
+                        // Added responsive classes: 'col-sm-6' for small devices and 'col-md-2' for medium to larger devices
+                        pokemonCard.classList.add('col-sm-6', 'col-md-2', 'pokemon-card');
                         pokemonCard.innerHTML = `
                             <img src="${pokeData.sprites.front_default}" alt="${pokeData.name}" class="card-img-top">
                             <div class="card-body">
