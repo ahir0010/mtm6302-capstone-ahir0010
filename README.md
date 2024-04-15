@@ -12,7 +12,7 @@ This web application provides a visually appealing Pokédex interface where user
 
 ## Resources Used
 - [Bootstrap](https://getbootstrap.com/) - Utilized for styling and layout of the web application.
-- [PokeAPI](https://pokeapi.co/) - Used to fetch Pokémon data including names, sprites, and other information.
+- [PokeAPI](https://pokeapi.co/) - Used to fetch Pokémon data like their names and all.
 
 ## Challenges Faced
 1. **Asynchronous Data Loading**: Fetching Pokémon data asynchronously posed challenges in maintaining the order of displayed Pokémon.
